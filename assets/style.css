@@ -1,28 +1,28 @@
-body {
-    background-color: #fdfaf6;
-    font-family: 'Cairo', sans-serif;
-}
-
-h2, h5 {
-    color: #3E2723;
-}
-
 .card {
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
-    background-color: #fff;
-    margin-bottom: 20px;
-    padding: 20px;
-}
-
-.kpi-value {
-    color: #5D4037;
-    font-size: 28px;
-    text-align: center;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background-color: white;
 }
 
 .kpi-title {
-    text-align: center;
-    font-weight: bold;
-    color: #3E2723;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.kpi-value {
+  font-size: 2em;
+  color: #5c3a1a;
+}
+
+h2, h5 {
+  color: #5c3a1a;
+}
+
+body {
+  background-color: #fefaf5;
+  font-family: 'Cairo', sans-serif;
+  padding: 10px;
 }
